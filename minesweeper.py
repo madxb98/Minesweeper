@@ -3,11 +3,10 @@
 #Here is where you'll define the Tile objects Madison
 
 class Tile(object):
-	isBomb = bool
-
-	#For initializing a Tile object
-	def __init__(self, isBomb):
-		self.isBomb = isBomb
+    
+    #For initializing a Tile object
+    def __init__(self, is_bomb):
+        self.is_bomb = is_bomb
 
 def main():
 
