@@ -11,14 +11,16 @@ class Tile(object):
 def get_2d_list(width, height):
     list = []
     for i in range(width):
+        list.append([])
         for j in range(height):	   
-            list.append(Tile(True))
+            list[i].append(Tile(True))
     return list
 
 def main():
     nl = get_2d_list(3,3)
     for i in range(len(nl)):
-        print(nl[i].is_bomb)
+        for j in range(len(nl)):
+            print(nl[i][j].is_bomb)
 
 main()
 
