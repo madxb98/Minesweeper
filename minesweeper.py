@@ -1,7 +1,6 @@
 #!/bin/python3
 
 #Here is where you'll define the Tile objects Madison
-
 class Tile(object):
 
     #This is the initializer for the Tile class
